@@ -28,13 +28,12 @@ public class MainActivity extends AppCompatActivity {
         mRecyclerView.setAdapter(mAdapter);
         mRecyclerView.setLayoutManager(new
                 LinearLayoutManager(this));
-
     }
 
     private void loadList() {
         mWordList = new ArrayList<>();
 
-        for (int i = 0; i <20 ; i++) {
+        for (int i = 0; i <30 ; i++) {
             mWordList.add("Student "+i);
         }
     }
